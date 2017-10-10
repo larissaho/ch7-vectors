@@ -13,7 +13,7 @@ all.numbers <- c(first.ten, next.ten)
 eleventh <- all.numbers[11]
 
 # Create a vector `some.numbers` that is equal to the second through the 5th elements of `all.numbers`
-some.numbers <- all.numbers[c(2,5)]
+some.numbers <- all.numbers[2:5]
 
 # Create a variable `len` that is equal to the length of your vector `all.numbers`
 len <- length(all.numbers)
@@ -24,4 +24,4 @@ len <- length(all.numbers)
 odd <- seq(1, 100, 2)
 
 # Using the `all` and `%%` operators, confirm that all of the numbers in your `odd` vector are odd
-
+test <- all(odd && 2 == 1)
